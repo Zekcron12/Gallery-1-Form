@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1B7578">
+  <meta name="description" content="MiniProyecto de practica">
+  <meta name="author" content="ZKC">
+  <meta name="copyright" content="Todos los derechos reservados © a '' ">
+
+  <title>MiniProyecto - Iniciar Sesión</title>
+
+  <script src="https://kit.fontawesome.com/c3a0547943.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" href="img/logozkc.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form class="container-main" id="IDmain">
+
+    <h1 class="text-title">Iniciar Sesión</h1>
+
+    <div class="container-box">
+      <p>Email</p>
+      <div class="box" id="IDemail">
+        <input type="email" name="email" placeholder="Ingrese su email" autocomplete="off">
+      </div>
+    </div>
+
+    <div class="container-box">
+      <p>Contraseña</p>
+      <div class="box" id="IDpassword">
+        <input type="password" name="password" placeholder="Ingrese contraseña">
+      </div>
+    </div>
+
+    <button type="submit" class="container-button" id="IDbutton">Ingresar</button>
+    <p class="text-invalid" id="IDtext-1">Casilleros incompletos</p>
+    <p class="text-invalid" id="IDtext-2">Los datos son incorrectos</p>
+    <p class="text-invalid" id="IDtext-3">¡Excelente!</p>
+    <p class="text-register">No tiene cuenta? <a href="index.html">Registrarse</a></p>
+  </form>
+
+
+
+  <script src="js/main.js"></script>
+  <!--<script>document.oncontextmenu = function(){return false;}</script>--> <!--Bloquear -->
+</body>
+</html>
